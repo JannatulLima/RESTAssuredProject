@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dynamic and Static APIs Test">
+    <test verbose="2" preserve-order="true" name="Test run by class name">
+        <classes>
+            <class name="assignment1.read.StaticPostRead"></class>
+            <class name="assignment1.write.StaticPostCreate"></class>
+            <class name="assignment1.write.StaticPostReplace"></class>
+            <class name="assignment1.write.StaticPostUpdate"></class>
+            <class name="assignment1.write.StaticPostDelete"></class>
+            <class name="assignment1.read.DynamicPostRead"></class>
+            <class name="assignment1.write.DynamicPostCreate"></class>
+            <class name="assignment1.write.DynamicPostReplace"></class>
+            <class name="assignment1.write.DynamicPostUpdate"></class>
+            <class name="assignment1.write.DynamicPostDelete"></class>
+        </classes>
+    </test>
+</suite>
