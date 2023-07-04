@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Dynamic and Static APIs Test">
-    <test verbose="2" preserve-order="true" name="Test run by class name">
+    <test verbose="2" preserve-order="true" name="Test run by class names">
         <classes>
             <class name="assignment2.bearer.token.authentication.GetArticles"></class>
             <class name="assignment2.bearer.token.authentication.CreateArticle"></class>
